@@ -1,0 +1,6 @@
+debug/
+target/
+/target
+src/main_copy.rs
+Cargo.lock
+**/*.rs.bk
