@@ -5,11 +5,10 @@ For Python `typing.Protocols` is used. For the Rust/Scala implementation traits 
 
 ## Setup
 
-Install [nix](!https://nixos.org/download.html) and [direnv](!https://direnv.net/docs/installation.html).
-
+Install [nix](https://nixos.org/download.html) and [direnv](https://direnv.net/docs/installation.html).
 Afterwards execute
 ```bash
  direnv allow
 ```
 
-and reload your shell. Now you should be ready to go and can execute the scripts. For example via `just run-python`
+and reload your shell. Now you should be ready to go to execute the scripts. For example via `just run-python`
