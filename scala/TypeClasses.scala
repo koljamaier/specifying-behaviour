@@ -7,7 +7,7 @@ trait Repeatable[T]:
     def repeat(repeatCount: Int): List[T] =  
       r.repeat(x, repeatCount)
 
-def double[T: Repeatable](x: T) =
+def double[T: Repeatable](x: T): List[T] =
   x.repeat(2)
 
 case class Person(name: String, age: Int)

@@ -7,7 +7,7 @@ class Repeatable(Protocol):
 
 # Every type that (at least) implements `Repeatable`
 RT = TypeVar('RT', bound=Repeatable)
-def double(x: RT) -> RT:
+def double(x: RT) -> List[RT]:
     return x.repeat(2)
 
 # "implicit" Repeatable 
